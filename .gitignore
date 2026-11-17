@@ -1,0 +1,28 @@
+[200~# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Runtime files
+devices.json
+*.log
+
+# Credentials
+.env
+.env.*
+!.env.example
+secrets.h
+credentials.h
+
+# Firmware build outputs
+*.bin
+*.elf
+*.map
+build/
+.pio/
+
+# IDE files
+.vscode/
+.idea/
